@@ -7,19 +7,31 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+<p>
 Pasos a seguir para que el proyecto gestiondeequipos funcione de manera correcta 
+    
 1.Crear una base de datos en tu gestor de bases de datos.
+    
 2.Modificar el archivo.env y actualizar los datos de conexion a la base de datos.
 
 Proceder a ejecutar los siguientes comandos en el siguiente orden:
 3.php artisan migrate
+
 4.Ir a la siguiente ruta en el navegador:
 http://gestiondeequipos.test/login
 
+5.Crear el usuario
+
 Ejecutar:
-5.npm run dev(Esperar a que termine y luego cerrar)
-6.php artisan db:seed(Para poblar la base de datos con datos iniciales).
-7.npm run build
+
+6.npm run dev(Esperar a que termine y luego cerrar)
+
+7.php artisan db:seed(Para poblar la base de datos con datos iniciales).
+
+8.npm run build
+    
+</p>
+
 
 ## About Laravel
 
