@@ -7,6 +7,19 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+Pasos a seguir para que el proyecto gestiondeequipos funcione de manera correcta 
+1.Crear una base de datos en tu gestor de bases de datos.
+2.Modificar el archivo.env y actualizar los datos de conexion a la base de datos.
+
+Proceder a ejecutar los siguientes comandos en el siguiente orden:
+3.php artisan migrate
+4.Ir a la siguiente ruta en el navegador:
+http://gestiondeequipos.test/login
+Ejecutar:
+5.npm run dev(Esperar a que termine y luego cerrar)
+6.npm run build
+7.php artisan db:seed(Para poblar la base de datos con datos iniciales).
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
