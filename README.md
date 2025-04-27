@@ -15,10 +15,11 @@ Proceder a ejecutar los siguientes comandos en el siguiente orden:
 3.php artisan migrate
 4.Ir a la siguiente ruta en el navegador:
 http://gestiondeequipos.test/login
+
 Ejecutar:
 5.npm run dev(Esperar a que termine y luego cerrar)
-6.npm run build
-7.php artisan db:seed(Para poblar la base de datos con datos iniciales).
+6.php artisan db:seed(Para poblar la base de datos con datos iniciales).
+7.npm run build
 
 ## About Laravel
 
